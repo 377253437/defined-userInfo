@@ -3,8 +3,8 @@
   "scripts": {
     "start": "roadhog server",
     "build": "roadhog build",
-    "lint": "eslint --ext .js src test",
-    "precommit": "npm run lint"
+    "deploy":"gh-pages -d build",
+    "predeploy":"npm run build"
   },
   "dependencies": {
     "@sc/eslint-config-sensorsdata-react": "^1.0.18",
@@ -39,5 +39,5 @@
     "tslint": "^6.1.3",
     "tslint-react": "^5.0.0"
   },
-  "homepage": "."
+  "homepage": "https://github.com/377253437/defined-userInfo.io"
 }
