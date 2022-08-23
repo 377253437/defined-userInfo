@@ -4,7 +4,7 @@
     "start": "roadhog server",
     "build": "roadhog build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@sc/eslint-config-sensorsdata-react": "^1.0.18",
